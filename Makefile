@@ -1,5 +1,5 @@
 CC = gcc
-CXXFLAGS = -g -std=c99 -O3 -Wall -Wextra -pthread -I. -ltestu01
+CXXFLAGS = -g -std=c99 -O3 -Wall -Wextra -I. -ltestu01
 
 all: bin bin/php_mt_broken bin/php_mt_fixed bin/stdlib
 
