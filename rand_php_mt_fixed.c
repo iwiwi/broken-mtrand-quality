@@ -4,7 +4,7 @@ void php_mt_srand(uint32_t seed);
 uint32_t php_mt_rand(void);
 
 char *test_name() {
-  return "php_mt_rand (broken)";
+  return "php_mt_rand (fixed)";
 }
 
 void test_srand(uint32_t seed) {
