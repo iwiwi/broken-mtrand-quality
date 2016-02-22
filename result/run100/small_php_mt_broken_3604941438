@@ -1,0 +1,349 @@
+1318526260
+1815088294
+2054619555
+303599457
+654080137
+809361104
+404463604
+763987711
+1510099068
+1172613935
+1960732847
+1275916471
+819894030
+1426101519
+182726239
+601078416
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                 Starting SmallCrush
+                 Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = node04, Linux
+
+php_mt_rand (broken)
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N =  1,  n = 5000000,  r =  0,    d = 1073741824,    t = 2,    p = 1
+
+
+      Number of cells = d^t = 1152921504606846976
+      Lambda = Poisson mean =      27.1051
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :      27.11
+Total observed number                 :      31
+p-value of test                       :    0.25
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.83
+
+Generator state:
+
+
+
+
+***********************************************************
+Test sknuth_Collision calling smultin_Multinomial
+
+***********************************************************
+HOST = node04, Linux
+
+php_mt_rand (broken)
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  1,  n = 5000000,  r =  0,   d = 65536,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =         4294967296
+       Expected number per cell =  1 /  858.99346
+       EColl = n^2 / (2k) =  2910.383046
+       Hashing =   TRUE
+
+       Collision test,    Mu =      2909.2534,    Sigma =    53.8957
+
+-----------------------------------------------
+Test Results for Collisions
+
+Expected number of collisions = Mu    :     2909.25
+Observed number of collisions         :     2897
+p-value of test                       :    0.59
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :       4289970193
+  j =  1                              :          4994206
+  j =  2                              :             2897
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.31
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node04, Linux
+
+php_mt_rand (broken)
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 200000,  r = 22,   Alpha =        0,   Beta  = 0.00390625
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 1114
+Chi-square statistic                  : 1044.80
+p-value of test                       :    0.93
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.96
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node04, Linux
+
+php_mt_rand (broken)
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 400000,  r = 24,   d =   64,   k =   64
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   19
+Chi-square statistic                  :   19.08
+p-value of test                       :    0.45
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.75
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node04, Linux
+
+php_mt_rand (broken)
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 500000,  r = 26,   d =   16
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   44
+Chi-square statistic                  :   52.57
+p-value of test                       :    0.18
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.67
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node04, Linux
+
+php_mt_rand (broken)
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N =  1,  n = 2000000,  r =  0,   d = 100000,   t =  6
+
+      Number of categories = 100000
+      Expected number per category  = 20.00
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 99999
+Chi-square statistic                  :99659.40
+p-value of test                       :    0.78
+
+
+-----------------------------------------------
+Anderson-Darling statistic            :    0.51
+p-value of test                       :    0.49
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.29
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node04, Linux
+
+php_mt_rand (broken)
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 200000,  r = 27,  k = 256,  Alpha =      0,  Beta =  0.125
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   41
+Chi-square statistic                  :   34.11
+p-value of test                       :    0.77
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.05
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node04, Linux
+
+php_mt_rand (broken)
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 20000,  r = 20,    s = 10,    L = 60,    k = 60
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    6.30
+p-value of test                       :    0.10
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.83
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node04, Linux
+
+php_mt_rand (broken)
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 500000,  r = 20,   s = 10,   L = 300,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 2209
+Chi-square statistic                  : 2139.70
+p-value of test                       :    0.85
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.00
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node04, Linux
+
+php_mt_rand (broken)
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r =  0,   s = 30,   L0 =  150,   L1 =  150
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   52
+ChiSquare statistic                   :   61.07
+p-value of test                       :    0.18
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   52
+ChiSquare statistic                   :   42.40
+p-value of test                       :    0.83
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   75
+ChiSquare statistic                   :   66.45
+p-value of test                       :    0.75
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   44
+ChiSquare statistic                   :   50.11
+p-value of test                       :    0.24
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   26
+ChiSquare statistic                   :   41.42
+p-value of test                       :    0.03
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.89
+
+Generator state:
+
+
+
+
+
+========= Summary results of SmallCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        php_mt_rand (broken)
+ Number of statistics:  15
+ Total CPU time:   00:00:11.59
+
+ All tests were passed
+
+
+

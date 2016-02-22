@@ -1,0 +1,3254 @@
+599722051
+1379697355
+542247377
+373416055
+1568453272
+1892926878
+162479033
+871426266
+783793152
+2132032564
+30818037
+1318808554
+884114050
+779850245
+784481774
+1506019796
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                 Starting Crush
+                 Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+Test smarsa_SerialOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 500000000,  r =  0,   d = 4096,   t =  2,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =           16777216
+       Expected number per cell =   29.802322
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =     0.01677312,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          : 16773120
+Value of the statistic                : 1.68e+7
+p-value of test                       :    0.30
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:57.52
+
+Generator state:
+
+
+
+
+***********************************************************
+Test smarsa_SerialOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 300000000,  r =  0,   d =   64,   t =  4,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =           16777216
+       Expected number per cell =   17.881393
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =    0.027525119,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          : 16515072
+Value of the statistic                : 1.65e+7
+p-value of test                       :    0.41
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:54.98
+
+Generator state:
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 10,  n = 10000000,  r =  0,   d = 1048576,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      1099511627776
+       Expected number per cell =  1 /  109951.16
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  109951.16
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :      454.75
+Observed number of collisions         :      445
+p-value of test                       :    0.67
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :   10995016278205
+  j =  1                              :         99999110
+  j =  2                              :              445
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:42.74
+
+Generator state:
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 10,  n = 10000000,  r = 10,   d = 1048576,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      1099511627776
+       Expected number per cell =  1 /  109951.16
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  109951.16
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :      454.75
+Observed number of collisions         :      440
+p-value of test                       :    0.75
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :   10995016278200
+  j =  1                              :         99999120
+  j =  2                              :              440
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:42.41
+
+Generator state:
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 10,  n = 10000000,  r =  0,   d = 1024,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      1099511627776
+       Expected number per cell =  1 /  109951.16
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  109951.16
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :      454.75
+Observed number of collisions         :      429
+p-value of test                       :    0.88
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :   10995016278189
+  j =  1                              :         99999142
+  j =  2                              :              429
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:56.86
+
+Generator state:
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 10,  n = 10000000,  r = 20,   d = 1024,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      1099511627776
+       Expected number per cell =  1 /  109951.16
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  109951.16
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :      454.75
+Observed number of collisions         :      474
+p-value of test                       :    0.19
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :   10995016278234
+  j =  1                              :         99999052
+  j =  2                              :              474
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:56.74
+
+Generator state:
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 10,  n = 10000000,  r =  0,   d =   32,   t =  8,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      1099511627776
+       Expected number per cell =  1 /  109951.16
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  109951.16
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :      454.75
+Observed number of collisions         :      452
+p-value of test                       :    0.54
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :   10995016278212
+  j =  1                              :         99999096
+  j =  2                              :              452
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:56.61
+
+Generator state:
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 10,  n = 10000000,  r = 25,   d =   32,   t =  8,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      1099511627776
+       Expected number per cell =  1 /  109951.16
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  109951.16
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :      454.75
+Observed number of collisions         :      423
+p-value of test                       :    0.93
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :   10995016278183
+  j =  1                              :         99999154
+  j =  2                              :              423
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:57.06
+
+Generator state:
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 10,  n = 10000000,  r =  0,   d =    4,   t = 20,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      1099511627776
+       Expected number per cell =  1 /  109951.16
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  109951.16
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :      454.74
+Observed number of collisions         :      422
+p-value of test                       :    0.94
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :   10995016278182
+  j =  1                              :         99999156
+  j =  2                              :              422
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:56.31
+
+Generator state:
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 10,  n = 10000000,  r = 28,   d =    4,   t = 20,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      1099511627776
+       Expected number per cell =  1 /  109951.16
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  109951.16
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :      454.74
+Observed number of collisions         :      481
+p-value of test                       :    0.11
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :   10995016278241
+  j =  1                              :         99999038
+  j =  2                              :              481
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:56.02
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N =  5,  n = 20000000,  r =  0,    d = 2147483648,    t = 2,    p = 1
+
+
+      Number of cells = d^t = 4611686018427387904
+      Lambda = Poisson mean =     433.6809
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    2168.40
+Total observed number                 :    2203
+p-value of test                       :    0.23
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:38.12
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N =  5,  n = 20000000,  r =  0,    d = 2097152,    t = 3,    p = 1
+
+
+      Number of cells = d^t = 9223372036854775808
+      Lambda = Poisson mean =     216.8404
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    1084.20
+Total observed number                 :    1073
+p-value of test                       :    0.63
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:39.76
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N =  5,  n = 20000000,  r =  0,    d = 65536,    t = 4,    p = 1
+
+
+      Number of cells = d^t = 18446744073709551616
+      Lambda = Poisson mean =     108.4202
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :     542.10
+Total observed number                 :     570
+p-value of test                       :    0.12
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:41.61
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N =  3,  n = 20000000,  r =  0,    d = 512,    t = 7,    p = 1
+
+
+      Number of cells = d^t = 9223372036854775808
+      Lambda = Poisson mean =     216.8404
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :     650.52
+Total observed number                 :     641
+p-value of test                       :    0.64
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:28.22
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N =  3,  n = 20000000,  r =  7,    d = 512,    t = 7,    p = 1
+
+
+      Number of cells = d^t = 9223372036854775808
+      Lambda = Poisson mean =     216.8404
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :     650.52
+Total observed number                 :     653
+p-value of test                       :    0.47
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:28.63
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N =  3,  n = 20000000,  r = 14,    d = 256,    t = 8,    p = 1
+
+
+      Number of cells = d^t = 18446744073709551616
+      Lambda = Poisson mean =     108.4202
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :     325.26
+Total observed number                 :     313
+p-value of test                       :    0.74
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:29.89
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N =  3,  n = 20000000,  r = 22,    d = 256,    t = 8,    p = 1
+
+
+      Number of cells = d^t = 18446744073709551616
+      Lambda = Poisson mean =     108.4202
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :     325.26
+Total observed number                 :     330
+p-value of test                       :    0.40
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:29.62
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N = 10,  n = 2000000,  r =  0,  t = 2,  p = 0,  m = 30,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    0.48
+p-value of test                       :    0.77
+
+
+A2 test based on the spacings between the
+   successive jump times of process Y_n(t):
+
+A2 test on the values of A2 (m-NP)    :    0.45
+p-value of test                       :    0.80
+
+Test on the Nm values of W_{n,i}(mNP1):    0.81
+p-value of test                       :    0.47
+
+Test on the jump times of Y
+   (superposition of Yn):
+
+Expected number of jumps of Y = mN    :     300
+Number of jumps of Y                  :     317
+p-value of test                       :    0.17
+
+Stat. AD (mNP2)                       :    0.24
+p-value of test                       :    0.98
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.66
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N = 10,  n = 2000000,  r =  0,  t = 3,  p = 0,  m = 30,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    0.78
+p-value of test                       :    0.49
+
+
+A2 test based on the spacings between the
+   successive jump times of process Y_n(t):
+
+A2 test on the values of A2 (m-NP)    :    0.69
+p-value of test                       :    0.56
+
+Test on the Nm values of W_{n,i}(mNP1):    1.37
+p-value of test                       :    0.21
+
+Test on the jump times of Y
+   (superposition of Yn):
+
+Expected number of jumps of Y = mN    :     300
+Number of jumps of Y                  :     319
+p-value of test                       :    0.14
+
+Stat. AD (mNP2)                       :    1.00
+p-value of test                       :    0.36
+
+Stat. AD after spacings (mNP2-S)      :    0.61
+p-value of test                       :    0.64
+
+-----------------------------------------------
+CPU time used                    :  00:00:31.98
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N =  5,  n = 2000000,  r =  0,  t = 7,  p = 0,  m = 30,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    0.99
+p-value of test                       :    0.36
+
+
+A2 test based on the spacings between the
+   successive jump times of process Y_n(t):
+
+A2 test on the values of A2 (m-NP)    :    0.68
+p-value of test                       :    0.57
+
+Test on the Nm values of W_{n,i}(mNP1):    1.30
+p-value of test                       :    0.23
+
+Test on the jump times of Y
+   (superposition of Yn):
+
+Expected number of jumps of Y = mN    :     150
+Number of jumps of Y                  :     173
+p-value of test                       :    0.04
+
+Stat. AD (mNP2)                       :    1.09
+p-value of test                       :    0.31
+
+Stat. AD after spacings (mNP2-S)      :    0.73
+p-value of test                       :    0.53
+
+-----------------------------------------------
+CPU time used                    :  00:00:49.29
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  4,  n = 4000000,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   21.00
+p-value of test                       :    0.84
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.19
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  2,  n = 4000000,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :   10.00
+p-value of test                       :    0.60
+
+-----------------------------------------------
+CPU time used                    :  00:00:16.89
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 40000000,  r =  0,   d =   16,   k =   16
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   12
+Chi-square statistic                  :    4.25
+p-value of test                       :    0.98
+
+-----------------------------------------------
+CPU time used                    :  00:00:16.96
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 40000000,  r = 26,   d =   16,   k =   16
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   12
+Chi-square statistic                  :   11.05
+p-value of test                       :    0.53
+
+-----------------------------------------------
+CPU time used                    :  00:00:19.36
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   d =   64,   k =   64
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   23
+Chi-square statistic                  :   18.16
+p-value of test                       :    0.75
+
+-----------------------------------------------
+CPU time used                    :  00:00:16.54
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r = 24,   d =   64,   k =   64
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   23
+Chi-square statistic                  :   24.83
+p-value of test                       :    0.36
+
+-----------------------------------------------
+CPU time used                    :  00:00:18.92
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 40000000,  r =  0,   d =    4
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   51
+Chi-square statistic                  :   41.96
+p-value of test                       :    0.81
+
+-----------------------------------------------
+CPU time used                    :  00:00:09.51
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 40000000,  r = 28,   d =    4
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   51
+Chi-square statistic                  :   66.45
+p-value of test                       :    0.07
+
+-----------------------------------------------
+CPU time used                    :  00:00:10.42
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   d =   16
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   46
+Chi-square statistic                  :   33.40
+p-value of test                       :    0.92
+
+-----------------------------------------------
+CPU time used                    :  00:00:12.55
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r = 26,   d =   16
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   46
+Chi-square statistic                  :   44.84
+p-value of test                       :    0.52
+
+-----------------------------------------------
+CPU time used                    :  00:00:13.96
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r =  0,   Alpha =        0,   Beta  =    0.125
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  106
+Chi-square statistic                  :  135.93
+p-value of test                       :    0.03
+
+-----------------------------------------------
+CPU time used                    :  00:00:14.42
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r = 27,   Alpha =        0,   Beta  =    0.125
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  106
+Chi-square statistic                  :  102.79
+p-value of test                       :    0.57
+
+-----------------------------------------------
+CPU time used                    :  00:00:18.05
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 5000000,  r =  0,   Alpha =        0,   Beta  = 0.00390625
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 1936
+Chi-square statistic                  : 1900.13
+p-value of test                       :    0.72
+
+-----------------------------------------------
+CPU time used                    :  00:00:20.19
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 5000000,  r = 22,   Alpha =        0,   Beta  = 0.00390625
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 1936
+Chi-square statistic                  : 1946.81
+p-value of test                       :    0.43
+
+-----------------------------------------------
+CPU time used                    :  00:00:25.35
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N =  1,  n = 500000000,  r =  0,   Up =  TRUE
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    6
+Chi-square statistic                  :    2.34
+p-value of test                       :    0.89
+
+-----------------------------------------------
+CPU time used                    :  00:00:10.85
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N =  1,  n = 500000000,  r = 15,   Up = FALSE
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    6
+Chi-square statistic                  :    5.11
+p-value of test                       :    0.53
+
+-----------------------------------------------
+CPU time used                    :  00:00:12.59
+
+Generator state:
+
+
+
+
+***********************************************************
+Test sknuth_Permutation calling smultin_Multinomial
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  1,  n = 50000000,  r =  0,   t = 10,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =            3628800
+       Expected number per cell =    13.77866
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =     0.03628799,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          : 3628799
+Value of the statistic                : 3.63e+6
+p-value of test                       :    0.11
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:25.58
+
+Generator state:
+
+
+
+
+***********************************************************
+Test sknuth_Permutation calling smultin_Multinomial
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  1,  n = 50000000,  r = 15,   t = 10,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =            3628800
+       Expected number per cell =    13.77866
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =     0.03628799,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          : 3628799
+Value of the statistic                : 3.62e+6
+p-value of test                       :    0.94
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:26.99
+
+Generator state:
+
+
+
+
+***********************************************************
+Test sknuth_CollisionPermut calling smultin_Multinomial
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  5,  n = 10000000,  r =  0,   t = 13,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =         6227020800
+       Expected number per cell =  1 /  622.70208
+       EColl = n^2 / (2k) =  8029.521918
+       Hashing =   TRUE
+
+       Collision test,    Mu =      8025.2245,    Sigma =    89.5098
+
+-----------------------------------------------
+Test Results for Collisions
+
+For the total number of collisions, we use
+      the Poisson approximation:
+Expected number of collisions = N*Mu  :    40126.12
+Observed number of collisions         :    40151
+p-value of test                       :    0.45
+
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :      31085144151
+  j =  1                              :         49919718
+  j =  2                              :            40111
+  j =  3                              :               20
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:41.55
+
+Generator state:
+
+
+
+
+***********************************************************
+Test sknuth_CollisionPermut calling smultin_Multinomial
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  5,  n = 10000000,  r = 15,   t = 13,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =         6227020800
+       Expected number per cell =  1 /  622.70208
+       EColl = n^2 / (2k) =  8029.521918
+       Hashing =   TRUE
+
+       Collision test,    Mu =      8025.2245,    Sigma =    89.5098
+
+-----------------------------------------------
+Test Results for Collisions
+
+For the total number of collisions, we use
+      the Poisson approximation:
+Expected number of collisions = N*Mu  :    40126.12
+Observed number of collisions         :    40032
+p-value of test                       :    0.68
+
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :      31085144032
+  j =  1                              :         49919962
+  j =  2                              :            39980
+  j =  3                              :               26
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:44.40
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N = 10,  n = 10000000,  r =  0,   d = 100000,   t =  5
+
+      Number of categories = 100000
+      Expected number per category  = 100.00
+
+
+-----------------------------------------------
+Test results for chi2 with 99999 degrees of freedom:
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.047
+p-value of test                       :    0.93
+
+Kolmogorov-Smirnov- statistic = D-    :    0.22
+p-value of test                       :    0.33
+
+Anderson-Darling statistic = A2       :    1.15
+p-value of test                       :    0.29
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 999990
+Chi-square statistic                  : 1.00e+6
+p-value of test                       :    0.08
+
+
+-----------------------------------------------
+Test results for Anderson-Darling:
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.056
+p-value of test                       :    0.91
+
+Kolmogorov-Smirnov- statistic = D-    :    0.24
+p-value of test                       :    0.27
+
+Anderson-Darling statistic = A2       :    0.75
+p-value of test                       :    0.51
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:04.50
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N =  5,  n = 10000000,  r =  0,   d = 100000,   t = 10
+
+      Number of categories = 100000
+      Expected number per category  = 100.00
+
+
+-----------------------------------------------
+Test results for chi2 with 99999 degrees of freedom:
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.074
+p-value of test                       :    0.90
+
+Kolmogorov-Smirnov- statistic = D-    :    0.34
+p-value of test                       :    0.27
+
+Anderson-Darling statistic = A2       :    0.81
+p-value of test                       :    0.47
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 499995
+Chi-square statistic                  : 5.01e+5
+p-value of test                       :    0.15
+
+
+-----------------------------------------------
+Test results for Anderson-Darling:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.50
+p-value of test                       :    0.06
+
+Kolmogorov-Smirnov- statistic = D-    :    0.24
+p-value of test                       :    0.49
+
+Anderson-Darling statistic = A2       :    1.39
+p-value of test                       :    0.21
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:35.74
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   d = 100000,   t = 20
+
+      Number of categories = 100000
+      Expected number per category  = 100.00
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 99999
+Chi-square statistic                  : 1.01e+5
+p-value of test                       :    0.10
+
+
+-----------------------------------------------
+Anderson-Darling statistic            :    0.59
+p-value of test                       :    0.41
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:08.57
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   d = 100000,   t = 30
+
+      Number of categories = 100000
+      Expected number per category  = 100.00
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 99999
+Chi-square statistic                  : 1.00e+5
+p-value of test                       :    0.43
+
+
+-----------------------------------------------
+Anderson-Darling statistic            :    0.95
+p-value of test                       :    0.05
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:09.97
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+svaria_SampleProd test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   t = 10
+
+
+-----------------------------------------------
+Anderson-Darling statistic            :    0.83
+p-value of test                       :    0.17
+
+-----------------------------------------------
+CPU time used                    :  00:00:06.33
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+svaria_SampleProd test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   t = 30
+
+
+-----------------------------------------------
+Anderson-Darling statistic            :   0.059
+p-value of test                       :    0.94
+
+-----------------------------------------------
+CPU time used                    :  00:00:12.10
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+svaria_SampleMean test:
+-----------------------------------------------
+   N = 10000000,  n = 20,  r =  0
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 1.92e-4
+p-value of test                       :    0.48
+
+Kolmogorov-Smirnov- statistic = D-    : 1.30e-4
+p-value of test                       :    0.71
+
+Anderson-Darling statistic = A2       :    0.24
+p-value of test                       :    0.97
+
+-----------------------------------------------
+CPU time used                    :  00:00:17.94
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+svaria_SampleCorr test:
+-----------------------------------------------
+   N =  1,  n = 500000000,  r =  0,   k = 1
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.13
+p-value of test                       :    0.55
+
+-----------------------------------------------
+CPU time used                    :  00:00:09.58
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 10000000,   K = 400000000,   r = 0,   s = 30,   L = 15
+
+   Sequences of n = (K + Q)L =   6150000000 bits
+   Q = 10000000 initialization blocks
+   K = 400000000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.68
+p-value of test                       :    0.75
+
+-----------------------------------------------
+CPU time used                    :  00:00:38.91
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 10000000,   K = 100000000,   r = 20,   s = 10,   L = 15
+
+   Sequences of n = (K + Q)L =   1650000000 bits
+   Q = 10000000 initialization blocks
+   K = 100000000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.29
+p-value of test                       :    0.90
+
+-----------------------------------------------
+CPU time used                    :  00:00:11.17
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 2000000,  r =  0,  k = 256,  Alpha =      0,  Beta =  0.125
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   46
+Chi-square statistic                  :   48.90
+p-value of test                       :    0.36
+
+-----------------------------------------------
+CPU time used                    :  00:00:08.92
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 2000000,  r =  8,  k = 256,  Alpha =      0,  Beta =  0.125
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   46
+Chi-square statistic                  :   34.99
+p-value of test                       :    0.88
+
+-----------------------------------------------
+CPU time used                    :  00:00:10.77
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 2000000,  r = 16,  k = 256,  Alpha =      0,  Beta =  0.125
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   46
+Chi-square statistic                  :   45.85
+p-value of test                       :    0.48
+
+-----------------------------------------------
+CPU time used                    :  00:00:10.77
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 2000000,  r = 24,  k = 256,  Alpha =      0,  Beta =  0.125
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   46
+Chi-square statistic                  :   60.45
+p-value of test                       :    0.07
+
+-----------------------------------------------
+CPU time used                    :  00:00:10.75
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+svaria_SumCollector test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r =  0,   g = 10
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   25
+Chi-square statistic                  :   29.39
+p-value of test                       :    0.25
+
+-----------------------------------------------
+CPU time used                    :  00:00:06.98
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r =  0,    s = 30,    L = 60,    k = 60
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    4
+Chi-square statistic                  :    1.12
+p-value of test                       :    0.89
+
+-----------------------------------------------
+CPU time used                    :  00:00:36.47
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r = 20,    s = 10,    L = 60,    k = 60
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    4
+Chi-square statistic                  :    1.38
+p-value of test                       :    0.85
+
+-----------------------------------------------
+CPU time used                    :  00:00:42.27
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 50000,  r =  0,    s = 30,    L = 300,    k = 300
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    2.77
+p-value of test                       :    0.43
+
+-----------------------------------------------
+CPU time used                    :  00:01:09.75
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 50000,  r = 20,    s = 10,    L = 300,    k = 300
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    0.11
+p-value of test                       :    0.9905
+
+-----------------------------------------------
+CPU time used                    :  00:01:25.22
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 2000,  r =  0,    s = 30,    L = 1200,    k = 1200
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    2.78
+p-value of test                       :    0.43
+
+-----------------------------------------------
+CPU time used                    :  00:01:57.68
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 2000,  r = 20,    s = 10,    L = 1200,    k = 1200
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    3.54
+p-value of test                       :    0.32
+
+-----------------------------------------------
+CPU time used                    :  00:02:13.23
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_Savir2 test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r =  0,    m = 1048576,    t = 30
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   17
+Chi-square statistic                  :   21.62
+p-value of test                       :    0.20
+
+-----------------------------------------------
+CPU time used                    :  00:00:08.85
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_GCD test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r =  0,   s = 30
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 2465
+Chi2 statistic for GCD values         : 2423.48
+p-value of test                       :    0.72
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:26.40
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+smarsa_GCD test:
+-----------------------------------------------
+   N =  1,  n = 40000000,  r = 10,   s = 20
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 1559
+Chi2 statistic for GCD values         : 1560.23
+p-value of test                       :    0.49
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:07.71
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 50000000,  r =  0,   s = 30,   L0 =   90,   L1 =   90
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   46
+ChiSquare statistic                   :   39.77
+p-value of test                       :    0.73
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   47
+ChiSquare statistic                   :   49.94
+p-value of test                       :    0.36
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   45
+ChiSquare statistic                   :   37.90
+p-value of test                       :    0.76
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   36
+ChiSquare statistic                   :   33.47
+p-value of test                       :    0.59
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   23
+ChiSquare statistic                   :   20.38
+p-value of test                       :    0.62
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:01.78
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r = 20,   s = 10,   L0 =   90,   L1 =   90
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   44
+ChiSquare statistic                   :   50.86
+p-value of test                       :    0.22
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   45
+ChiSquare statistic                   :   61.87
+p-value of test                       :    0.05
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   45
+ChiSquare statistic                   :   58.82
+p-value of test                       :    0.08
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   35
+ChiSquare statistic                   :   25.64
+p-value of test                       :    0.88
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   22
+ChiSquare statistic                   :   19.40
+p-value of test                       :    0.62
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:14.28
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 5000000,  r =  0,   s = 30,   L0 = 1000,   L1 = 1000
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  140
+ChiSquare statistic                   :  133.84
+p-value of test                       :    0.63
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  141
+ChiSquare statistic                   :  145.63
+p-value of test                       :    0.38
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  500
+ChiSquare statistic                   :  524.81
+p-value of test                       :    0.21
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  132
+ChiSquare statistic                   :  123.57
+p-value of test                       :    0.69
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   72
+ChiSquare statistic                   :   56.67
+p-value of test                       :    0.91
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:03.57
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r = 20,   s = 10,   L0 = 1000,   L1 = 1000
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  128
+ChiSquare statistic                   :  141.38
+p-value of test                       :    0.20
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  130
+ChiSquare statistic                   :  101.03
+p-value of test                       :    0.97
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  500
+ChiSquare statistic                   :  540.38
+p-value of test                       :    0.10
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  122
+ChiSquare statistic                   :  121.73
+p-value of test                       :    0.49
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   66
+ChiSquare statistic                   :   80.05
+p-value of test                       :    0.11
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:14.63
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 500000,  r =  0,   s = 30,   L0 = 10000,   L1 = 10000
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  366
+ChiSquare statistic                   :  364.86
+p-value of test                       :    0.51
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  366
+ChiSquare statistic                   :  391.30
+p-value of test                       :    0.17
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5000
+ChiSquare statistic                   : 4957.50
+p-value of test                       :    0.66
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  360
+ChiSquare statistic                   :  354.42
+p-value of test                       :    0.57
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  192
+ChiSquare statistic                   :  217.81
+p-value of test                       :    0.10
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:01.69
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 20,   s = 10,   L0 = 10000,   L1 = 10000
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  318
+ChiSquare statistic                   :  313.25
+p-value of test                       :    0.56
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  318
+ChiSquare statistic                   :  359.34
+p-value of test                       :    0.05
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5000
+ChiSquare statistic                   : 4935.08
+p-value of test                       :    0.74
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  315
+ChiSquare statistic                   :  267.21
+p-value of test                       :    0.98
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  169
+ChiSquare statistic                   :  172.14
+p-value of test                       :    0.42
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:13.42
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 120000,  r =  0,    s = 1
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   10
+Chi2 statistic for size of jumps      :   10.26
+p-value of test                       :    0.42
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  : -163.62
+p-value of test                       : 1 - eps1    *****
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:05.48
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 120000,  r = 29,    s = 1
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   10
+Chi2 statistic for size of jumps      :   12.86
+p-value of test                       :    0.23
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  : -164.00
+p-value of test                       : 1 - eps1    *****
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:04.48
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N = 10,  n = 33554432,  r =  0,   s =   30,   k =   25
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.097
+p-value of test                       :    0.78
+
+Kolmogorov-Smirnov- statistic = D-    :    0.32
+p-value of test                       :    0.11
+
+Anderson-Darling statistic = A2       :    1.30
+p-value of test                       :    0.23
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.59
+p-value of test                       :    0.28
+
+Sample variance                       :    1.36
+p-value of test                       :    0.20
+
+-----------------------------------------------
+CPU time used                    :  00:00:13.76
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 50000,  n = 16384,  r =  0,   s =   30,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.011
+p-value of test                       :    0.35
+
+Kolmogorov-Smirnov- statistic = D-    : 7.05e-3
+p-value of test                       :    0.66
+
+Anderson-Darling statistic = A2       :    0.64
+p-value of test                       :    0.61
+
+-----------------------------------------------
+CPU time used                    :  00:00:35.86
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 50000,  n = 16384,  r = 20,   s =   10,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 6.85e-3
+p-value of test                       :    0.68
+
+Kolmogorov-Smirnov- statistic = D-    :   0.011
+p-value of test                       :    0.34
+
+Anderson-Darling statistic = A2       :    0.39
+p-value of test                       :    0.86
+
+-----------------------------------------------
+CPU time used                    :  00:00:36.59
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 1000,  r =  0,   s = 30,   L = 10000020
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :    8.17
+p-value of test                       :    0.42
+
+-----------------------------------------------
+Global longest run of 1               :   31.00
+p-value of test                       :    0.69
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:11.76
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 300,  r = 20,   s = 10,   L = 10000020
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    7
+Chi-square statistic                  :    4.24
+p-value of test                       :    0.75
+
+-----------------------------------------------
+Global longest run of 1               :   27.00
+p-value of test                       :    0.9963
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:28.98
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 300000000,  r =  0,   s =   30
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  302
+Chi-square statistic                  :  306.42
+p-value of test                       :    0.42
+
+-----------------------------------------------
+CPU time used                    :  00:00:31.67
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 300000000,  r = 15,   s =   15
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   56
+Chi-square statistic                  :   44.75
+p-value of test                       :    0.86
+
+-----------------------------------------------
+CPU time used                    :  00:00:20.76
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_HammingWeight2 test:
+-----------------------------------------------
+   N = 100,  n = 100000000,  r =  0,   s = 30,   L = 1000000
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.085
+p-value of test                       :    0.23
+
+Kolmogorov-Smirnov- statistic = D-    :   0.059
+p-value of test                       :    0.49
+
+Anderson-Darling statistic = A2       :    0.69
+p-value of test                       :    0.56
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 10000
+Chi-square statistic                  :10050.90
+p-value of test                       :    0.36
+
+-----------------------------------------------
+CPU time used                    :  00:00:14.98
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_HammingWeight2 test:
+-----------------------------------------------
+   N = 30,  n = 100000000,  r = 20,   s = 10,   L = 1000000
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.030
+p-value of test                       :    0.93
+
+Kolmogorov-Smirnov- statistic = D-    :   0.086
+p-value of test                       :    0.61
+
+Anderson-Darling statistic = A2       :    0.38
+p-value of test                       :    0.87
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 3000
+Chi-square statistic                  : 3049.41
+p-value of test                       :    0.26
+
+-----------------------------------------------
+CPU time used                    :  00:00:09.76
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 500000000,  r =  0,   s = 30,   L = 30
+
+
+
+-----------------------------------------------
+Normal statistic                      :    2.27
+p-value of test                       :    0.01
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.86
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 50000000,  r =  0,   s = 30,   L = 300
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.93
+p-value of test                       :    0.82
+
+-----------------------------------------------
+CPU time used                    :  00:00:22.73
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   s = 30,   L = 1200
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.77
+p-value of test                       :    0.22
+
+-----------------------------------------------
+CPU time used                    :  00:00:18.13
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 300000000,  r =  0,   s = 30,   L = 30,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  577
+Chi-square statistic                  :  579.01
+p-value of test                       :    0.47
+
+-----------------------------------------------
+CPU time used                    :  00:00:29.46
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r = 20,   s = 10,   L = 30,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  533
+Chi-square statistic                  :  523.01
+p-value of test                       :    0.61
+
+-----------------------------------------------
+CPU time used                    :  00:00:23.15
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 30000000,  r =  0,   s = 30,   L = 300,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 4117
+Chi-square statistic                  : 4028.97
+p-value of test                       :    0.83
+
+-----------------------------------------------
+CPU time used                    :  00:00:27.65
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r = 20,   s = 10,   L = 300,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 3585
+Chi-square statistic                  : 3628.19
+p-value of test                       :    0.30
+
+-----------------------------------------------
+CPU time used                    :  00:00:20.78
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   s = 30,   L = 1200,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 11825
+Chi-square statistic                  :11711.29
+p-value of test                       :    0.77
+
+-----------------------------------------------
+CPU time used                    :  00:00:35.71
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r = 20,   s = 10,   L = 1200,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 7473
+Chi-square statistic                  : 7386.68
+p-value of test                       :    0.76
+
+-----------------------------------------------
+CPU time used                    :  00:00:08.09
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 1000000000,  r =  0,   s =   30
+
+
+-----------------------------------------------
+Total number of 1 runs:  1000000004
+
+Number of degrees of freedom          :   52
+Chi2 statistic for number of runs     :   77.06
+p-value of test                       :    0.01
+
+
+-----------------------------------------------
+Total number of bits:  4000042440
+
+Normal statistic for number of bits   :    0.47
+p-value of test                       :    0.32
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:29.50
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 1000000000,  r = 20,   s =   10
+
+
+-----------------------------------------------
+Total number of 1 runs:  1000000001
+
+Number of degrees of freedom          :   52
+Chi2 statistic for number of runs     :   39.90
+p-value of test                       :    0.89
+
+
+-----------------------------------------------
+Total number of bits:  4000075250
+
+Normal statistic for number of bits   :    0.84
+p-value of test                       :    0.20
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:38.36
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 10,  n = 1000000021,  r =  0,   s = 30,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.28
+p-value of test                       :    0.17
+
+Kolmogorov-Smirnov- statistic = D-    :   0.038
+p-value of test                       :    0.95
+
+Anderson-Darling statistic = A2       :    1.37
+p-value of test                       :    0.21
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   -1.47
+p-value of test                       :    0.93
+
+Sample variance                       :    1.03
+p-value of test                       :    0.41
+
+-----------------------------------------------
+CPU time used                    :  00:00:28.59
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  5,  n = 1000000001,  r = 20,   s = 10,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.25
+p-value of test                       :    0.47
+
+Kolmogorov-Smirnov- statistic = D-    :    0.38
+p-value of test                       :    0.18
+
+Anderson-Darling statistic = A2       :    1.04
+p-value of test                       :    0.33
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.65
+p-value of test                       :    0.26
+
+Sample variance                       :    0.16
+p-value of test                       :    0.96
+
+-----------------------------------------------
+CPU time used                    :  00:00:37.71
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 10,  n = 1000000020,  r =  0,   s = 30,   d = 30
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.22
+p-value of test                       :    0.33
+
+Kolmogorov-Smirnov- statistic = D-    :    0.26
+p-value of test                       :    0.22
+
+Anderson-Darling statistic = A2       :    1.43
+p-value of test                       :    0.19
+
+Tests on the sum of all N observations
+Standardized normal statistic         : 4.62e-3
+p-value of test                       :    0.50
+
+Sample variance                       :    2.31
+p-value of test                       :    0.01
+
+-----------------------------------------------
+CPU time used                    :  00:00:26.42
+
+Generator state:
+
+
+
+
+***********************************************************
+HOST = node08, Linux
+
+php_mt_rand (fixed)
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  5,  n = 1000000010,  r = 20,   s = 10,   d = 10
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.39
+p-value of test                       :    0.18
+
+Kolmogorov-Smirnov- statistic = D-    : 7.00e-3
+p-value of test                       :    0.9928
+
+Anderson-Darling statistic = A2       :    1.46
+p-value of test                       :    0.19
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   -1.68
+p-value of test                       :    0.95
+
+Sample variance                       :    1.26
+p-value of test                       :    0.29
+
+-----------------------------------------------
+CPU time used                    :  00:00:31.21
+
+Generator state:
+
+
+
+
+
+========= Summary results of Crush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        php_mt_rand (fixed)
+ Number of statistics:  144
+ Total CPU time:   00:49:36.86
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+ 71  LinearComp, r = 0              1 - eps1
+ 72  LinearComp, r = 29             1 - eps1
+ ----------------------------------------------
+ All other tests were passed
+
+
+
